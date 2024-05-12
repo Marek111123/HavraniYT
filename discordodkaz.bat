@@ -65,7 +65,17 @@ if %heslo% == administrator (
     pause
     exit
 )
-
+if %heslo% == nevimheslo (
+cls
+echo.
+echo.
+echo nevis heslo jo
+timeout /t 2 > nul
+echo.
+echo heslo je havranimajidiscord
+timeout /t 5 > nul
+start https://youtu.be/oRIpOhqgP8k
+exit
 if %heslo% == havranimajidiscord (
     cls
     echo Presne takoveto heslo bych pouzil, dobra prace!
